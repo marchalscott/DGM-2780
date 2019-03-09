@@ -1,0 +1,119 @@
+/* Home Page SCSS */
+
+$font-stack : Helvetica, sans-serif;
+$background-color: slategray;
+$primary-color: #333;
+$second-color: black;
+$third-color: white;
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+	background-color: $background-color;
+}
+@mixin border-radius($radius) {
+	webkit-border-radius: $radius;
+	moz-border-radius: $radius;
+	ms-border-radius: $radius;
+	border-radius: $radius;
+}
+/*Nav*/
+
+nav {
+	p {
+		margin: 0;
+		padding: 10px;
+		list-style: none;
+		li {
+			margin: 10px;
+			padding: 0;
+			list-style: none;
+		}
+	}
+}
+body {
+	.wrapper {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+#home-page {
+	h1 {
+		color: $second-color;
+	}
+}
+#home-page {
+	.logo {
+		@include border-radius(6px);
+		display: block;
+		margin: auto;
+		width: 68%;
+		a {
+			@include border-radius(6px);
+			margin: auto;
+			width: 100%;
+			img {
+				@include border-radius(6px);
+				margin: auto;
+				width: 100%;
+			}
+		}
+	}
+}
+#home-page {
+	.content {
+		display: block;
+		padding: 10px;
+	}
+}
+#home-page {
+	.thumb {
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+		width: 61%;
+	}
+}
+/*Side by side cow information block*/
+
+#home-page {
+	width: 100%;
+	.left {
+		border: solid 1px black;
+		width: 600px / 1250px * 100%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 20px;
+		@include border-radius(6px);
+
+				.cow {
+	text-decoration: underline;
+	}
+	}
+	.right {
+		border: solid 1px black;
+		width: 600px / 1224px * 100%;
+		float: right;
+		margin-bottom: 20px;
+		@include border-radius(6px);
+		padding: 5px;
+
+				.bull {
+	@extend .cow;
+	}
+	}
+}
+
+
+#footer {
+	position: bottom;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: slategray;
+	color: $third-color;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-top: 10px
+}
+/*End of side by side cow information block*/

@@ -1,0 +1,117 @@
+/* line 5, ../scss/partials/_header.scss */
+#header nav {
+  float: right; }
+  /* line 8, ../scss/partials/_header.scss */
+  #header nav li {
+    float: left; }
+
+/* Home Page SCSS */
+/* line 8, ../scss/pages/_home-page.scss */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: slategray; }
+
+/*Nav*/
+/* line 22, ../scss/pages/_home-page.scss */
+nav p {
+  margin: 0;
+  padding: 10px;
+  list-style: none; }
+  /* line 26, ../scss/pages/_home-page.scss */
+  nav p li {
+    margin: 10px;
+    padding: 0;
+    list-style: none; }
+
+/* line 34, ../scss/pages/_home-page.scss */
+body .wrapper {
+  width: 95%;
+  margin: 0 auto; }
+
+/* line 40, ../scss/pages/_home-page.scss */
+#home-page h1 {
+  color: black; }
+
+/* line 45, ../scss/pages/_home-page.scss */
+#home-page .logo {
+  webkit-border-radius: 6px;
+  moz-border-radius: 6px;
+  ms-border-radius: 6px;
+  border-radius: 6px;
+  display: block;
+  margin: auto;
+  width: 68%; }
+  /* line 50, ../scss/pages/_home-page.scss */
+  #home-page .logo a {
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    ms-border-radius: 6px;
+    border-radius: 6px;
+    margin: auto;
+    width: 100%; }
+    /* line 54, ../scss/pages/_home-page.scss */
+    #home-page .logo a img {
+      webkit-border-radius: 6px;
+      moz-border-radius: 6px;
+      ms-border-radius: 6px;
+      border-radius: 6px;
+      margin: auto;
+      width: 100%; }
+
+/* line 63, ../scss/pages/_home-page.scss */
+#home-page .content {
+  display: block;
+  padding: 10px; }
+
+/* line 69, ../scss/pages/_home-page.scss */
+#home-page .thumb {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 61%; }
+
+/*Side by side cow information block*/
+/* line 78, ../scss/pages/_home-page.scss */
+#home-page {
+  width: 100%; }
+  /* line 80, ../scss/pages/_home-page.scss */
+  #home-page .left {
+    border: solid 1px black;
+    width: 48%;
+    float: left;
+    padding: 5px;
+    margin-bottom: 20px;
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    ms-border-radius: 6px;
+    border-radius: 6px; }
+    /* line 88, ../scss/pages/_home-page.scss */
+    #home-page .left .cow, #home-page .left .right .bull, #home-page .right .left .bull {
+      text-decoration: underline; }
+  /* line 92, ../scss/pages/_home-page.scss */
+  #home-page .right {
+    border: solid 1px black;
+    width: 49.0196078431%;
+    float: right;
+    margin-bottom: 20px;
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    ms-border-radius: 6px;
+    border-radius: 6px;
+    padding: 5px; }
+
+/* line 107, ../scss/pages/_home-page.scss */
+#footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: slategray;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px; }
+
+/*End of side by side cow information block*/
